@@ -33,12 +33,12 @@ end
 puts "Il y a #{count} handle commençant par une majuscule"
 
 # alphabetique
-#alpha = list.sort_by { |word| word.downcase}
-#puts alpha
+alpha = list.sort_by { |word| word.downcase}
+puts alpha
 
 # taille
-#croissant = list.sort_by { |word| word.length}
-#puts croissant
+croissant = list.sort_by { |word| word.length}
+puts croissant
 
 # e-pigeon
 name = " "
